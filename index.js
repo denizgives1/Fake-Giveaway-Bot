@@ -100,7 +100,7 @@ client.on('messageCreate', async (message) => {
             .addComponents(
                 new MessageButton()
                 .setCustomId('giveaway')
-                .setLabel('🎉')
+                .setLabel('🎉')	
                 .setStyle('PRIMARY')
             );
         let embedGiveawayHandle = await giveawayChannel.send({
@@ -147,7 +147,7 @@ client.on('messageCreate', async (message) => {
 
 
 const process = require('process')
-client.login(process.env.token)
+client.login("MTI5NzIwNjAzMzY2NzU5MjI5Mg.GTiVEn.bhwJ8Anmdpx1BW7eqdoCX1CaIk1m-e86LFwMnI")
 
 process.on('multipleResolves', (type, promise, reason) => { // Needed
     console.log('[antiCrash] :: [multipleResolves]');
